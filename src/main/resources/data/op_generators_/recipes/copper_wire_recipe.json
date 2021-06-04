@@ -1,0 +1,24 @@
+{
+  "group": "op_generators_",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "op_generators_:hammer"
+    },
+    "1": {
+      "item": "op_generators_:wire_maker"
+    },
+    "2": {
+      "item": "op_generators_:copper_ingot"
+    }
+  },
+  "result": {
+    "item": "op_generators_:copper_wire",
+    "count": 1
+  }
+}

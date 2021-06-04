@@ -1,0 +1,29 @@
+{
+  "group": "op_generators_",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "op_generators_:osmium_ingot"
+    },
+    "1": {
+      "item": "op_generators_:osmium_ingot"
+    },
+    "2": {
+      "item": "op_generators_:osmium_ingot"
+    },
+    "3": {
+      "item": "op_generators_:osmium_ingot"
+    },
+    "5": {
+      "item": "op_generators_:osmium_ingot"
+    }
+  },
+  "result": {
+    "item": "op_generators_:osmium_armor_helmet",
+    "count": 1
+  }
+}

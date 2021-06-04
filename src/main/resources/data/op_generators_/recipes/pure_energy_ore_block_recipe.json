@@ -1,0 +1,42 @@
+{
+  "group": "op_generators_",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "op_generators_:pure_energy"
+    },
+    "1": {
+      "item": "op_generators_:pure_energy"
+    },
+    "2": {
+      "item": "op_generators_:pure_energy"
+    },
+    "3": {
+      "item": "op_generators_:pure_energy"
+    },
+    "4": {
+      "item": "op_generators_:pure_energy"
+    },
+    "5": {
+      "item": "op_generators_:pure_energy"
+    },
+    "6": {
+      "item": "op_generators_:pure_energy"
+    },
+    "7": {
+      "item": "op_generators_:pure_energy"
+    },
+    "8": {
+      "item": "op_generators_:pure_energy"
+    }
+  },
+  "result": {
+    "item": "op_generators_:pure_energy_block",
+    "count": 1
+  }
+}

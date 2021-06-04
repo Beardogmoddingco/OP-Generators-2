@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "op_generators_:blocks/technical_planks",
+    "particle": "op_generators_:blocks/technical_planks"
+  }
+}

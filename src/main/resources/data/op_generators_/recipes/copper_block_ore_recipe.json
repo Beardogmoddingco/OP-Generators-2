@@ -1,0 +1,13 @@
+{
+  "group": "op_generators_",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "op_generators_:copper_block"
+    }
+  ],
+  "result": {
+    "item": "op_generators_:copper_ingot",
+    "count": 9
+  }
+}

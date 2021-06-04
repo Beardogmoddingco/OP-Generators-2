@@ -1,0 +1,13 @@
+{
+  "group": "op_generators_",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:technical_log"
+    }
+  ],
+  "result": {
+    "item": "op_generators_:technical_planks",
+    "count": 4
+  }
+}

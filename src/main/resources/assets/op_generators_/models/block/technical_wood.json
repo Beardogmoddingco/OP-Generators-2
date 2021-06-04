@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "op_generators_:blocks/technical_log_side",
+    "particle": "op_generators_:blocks/technical_log_side"
+  }
+}

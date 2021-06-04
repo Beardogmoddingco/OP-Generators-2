@@ -1,0 +1,11 @@
+{
+  "_fv": 18,
+  "_type": "tab",
+  "definition": {
+    "name": "Cores",
+    "icon": {
+      "value": "CUSTOM:IronCore"
+    },
+    "showSearch": false
+  }
+}

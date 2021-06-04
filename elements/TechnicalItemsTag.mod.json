@@ -1,0 +1,20 @@
+{
+  "_fv": 18,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:TechnicalWood"
+      },
+      {
+        "value": "CUSTOM:TechnicalLog"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "technical_log",
+    "namespace": "forge"
+  }
+}

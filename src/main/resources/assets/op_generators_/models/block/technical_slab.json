@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "op_generators_:blocks/technical_planks",
+    "top": "op_generators_:blocks/technical_planks",
+    "side": "op_generators_:blocks/technical_planks"
+  }
+}

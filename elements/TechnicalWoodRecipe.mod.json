@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:TechnicalLog"
+      },
+      {
+        "value": "CUSTOM:TechnicalLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:TechnicalLog"
+      },
+      {
+        "value": "CUSTOM:TechnicalLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:TechnicalWood"
+    },
+    "name": "technical_wood_recipe",
+    "namespace": "mod"
+  }
+}

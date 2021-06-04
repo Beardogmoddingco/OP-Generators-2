@@ -1,0 +1,11 @@
+{
+  "_fv": 18,
+  "_type": "tab",
+  "definition": {
+    "name": "Compressed Items",
+    "icon": {
+      "value": "CUSTOM:CompressedIron"
+    },
+    "showSearch": false
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "op_generators_:block/technical_slab"
+    },
+    "type=top": {
+      "model": "op_generators_:block/technical_slab_top"
+    },
+    "type=double": {
+      "model": "op_generators_:block/technical_slab_full"
+    }
+  }
+}

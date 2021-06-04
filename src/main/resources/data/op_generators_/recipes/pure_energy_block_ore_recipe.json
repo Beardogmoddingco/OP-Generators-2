@@ -1,0 +1,13 @@
+{
+  "group": "op_generators_",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "op_generators_:pure_energy_block"
+    }
+  ],
+  "result": {
+    "item": "op_generators_:pure_energy",
+    "count": 9
+  }
+}

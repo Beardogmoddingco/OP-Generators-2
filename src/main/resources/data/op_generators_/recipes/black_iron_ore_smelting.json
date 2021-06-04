@@ -1,0 +1,12 @@
+{
+  "group": "op_generators_",
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "op_generators_:black_iron_ore"
+  },
+  "result": {
+    "item": "op_generators_:black_iron_ingot"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 18,
+  "_type": "tab",
+  "definition": {
+    "name": "Ores And Ingots",
+    "icon": {
+      "value": "CUSTOM:BlackIronOre"
+    },
+    "showSearch": false
+  }
+}

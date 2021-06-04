@@ -1,0 +1,902 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "BlackIronIngot",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_iron_ingot",
+      "path": "~/Items"
+    },
+    {
+      "name": "BlackIronOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_iron_ore",
+      "path": "~/Items"
+    },
+    {
+      "name": "BlackIronBlock",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_iron_block",
+      "path": "~/Items"
+    },
+    {
+      "name": "BlackIronOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_iron_ore_block_recipe",
+      "path": "~/Items"
+    },
+    {
+      "name": "BlackIronBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_iron_block_ore_recipe",
+      "path": "~/Items"
+    },
+    {
+      "name": "BlackIronOreSmelting",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_iron_ore_smelting",
+      "path": "~/Items"
+    },
+    {
+      "name": "IronCore",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_core",
+      "path": "~/Items"
+    },
+    {
+      "name": "Cores",
+      "type": "tab",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cores",
+      "path": "~/CTabs"
+    },
+    {
+      "name": "CompressedIron",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compressed_iron",
+      "path": "~/Compressed Items"
+    },
+    {
+      "name": "CompressedItems",
+      "type": "tab",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compressed_items",
+      "path": "~/CTabs"
+    },
+    {
+      "name": "CompressedBlackIron",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compressed_black_iron",
+      "path": "~/Compressed Items"
+    },
+    {
+      "name": "Hammer",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hammer",
+      "path": "~/Crafting Tools"
+    },
+    {
+      "name": "CraftingItems",
+      "type": "tab",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crafting_items",
+      "path": "~/CTabs"
+    },
+    {
+      "name": "OsmiumIngot",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "osmium_ingot",
+      "path": "~/Items"
+    },
+    {
+      "name": "OsmiumOre",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "osmium_ore",
+      "path": "~/Items"
+    },
+    {
+      "name": "OsmiumBlock",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "osmium_block",
+      "path": "~/Items"
+    },
+    {
+      "name": "OsmiumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "osmium_ore_block_recipe",
+      "path": "~/Items"
+    },
+    {
+      "name": "OsmiumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "osmium_block_ore_recipe",
+      "path": "~/Items"
+    },
+    {
+      "name": "OsmiumOreSmelting",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "osmium_ore_smelting",
+      "path": "~/Items"
+    },
+    {
+      "name": "OsmiumPickaxe",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "osmium_pickaxe",
+      "path": "~/Items"
+    },
+    {
+      "name": "OsmiumAxe",
+      "type": "tool",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "osmium_axe",
+      "path": "~/Items"
+    },
+    {
+      "name": "OsmiumSword",
+      "type": "tool",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "osmium_sword",
+      "path": "~/Items"
+    },
+    {
+      "name": "OsmiumShovel",
+      "type": "tool",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "osmium_shovel",
+      "path": "~/Items"
+    },
+    {
+      "name": "OsmiumHoe",
+      "type": "tool",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "osmium_hoe",
+      "path": "~/Items"
+    },
+    {
+      "name": "OsmiumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "osmium_pickaxe_recipe",
+      "path": "~/Items"
+    },
+    {
+      "name": "OsmiumAxeRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "osmium_axe_recipe",
+      "path": "~/Items"
+    },
+    {
+      "name": "OsmiumSwordRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "osmium_sword_recipe",
+      "path": "~/Items"
+    },
+    {
+      "name": "OsmiumShovelRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "osmium_shovel_recipe",
+      "path": "~/Items"
+    },
+    {
+      "name": "OsmiumHoeRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "osmium_hoe_recipe",
+      "path": "~/Items"
+    },
+    {
+      "name": "OsmiumArmor",
+      "type": "armor",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "osmium_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "OsmiumArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "osmium_armor_helmet_recipe",
+      "path": "~/Items"
+    },
+    {
+      "name": "OsmiumArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "osmium_armor_body_recipe",
+      "path": "~/Items"
+    },
+    {
+      "name": "OsmiumArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "osmium_armor_leggings_recipe",
+      "path": "~/Items"
+    },
+    {
+      "name": "OsmiumArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "osmium_armor_boots_recipe",
+      "path": "~/Items"
+    },
+    {
+      "name": "CompressedOsmium",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compressed_osmium",
+      "path": "~/Compressed Items"
+    },
+    {
+      "name": "CompressedIronRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compressed_iron_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CompressedBlackIronRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compressed_black_iron_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CompressedOsmiumRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compressed_osmium_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "HammerRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hammer_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "OresAndIngots",
+      "type": "tab",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ores_and_ingots",
+      "path": "~/CTabs"
+    },
+    {
+      "name": "TechnicalWood",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "technical_wood",
+      "path": "~/TechnicalForestStuff"
+    },
+    {
+      "name": "TechnicalLog",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "technical_log",
+      "path": "~/TechnicalForestStuff"
+    },
+    {
+      "name": "TechnicalPlanks",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "technical_planks",
+      "path": "~/TechnicalForestStuff"
+    },
+    {
+      "name": "TechnicalStairs",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "technical_stairs",
+      "path": "~/TechnicalForestStuff"
+    },
+    {
+      "name": "TechnicalSlab",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "technical_slab",
+      "path": "~/TechnicalForestStuff"
+    },
+    {
+      "name": "TechnicalFence",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "technical_fence",
+      "path": "~/TechnicalForestStuff"
+    },
+    {
+      "name": "TechnicalFenceGate",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "technical_fence_gate",
+      "path": "~/TechnicalForestStuff"
+    },
+    {
+      "name": "TechnicalItemsTag",
+      "type": "tag",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "technical_items_tag",
+      "path": "~/TechnicalForestStuff"
+    },
+    {
+      "name": "TechnicalWoodRecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "technical_wood_recipe",
+      "path": "~/TechnicalForestStuff"
+    },
+    {
+      "name": "TechnicalPlanksRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "technical_planks_recipe",
+      "path": "~/TechnicalForestStuff"
+    },
+    {
+      "name": "TechnicalStairsRecipe",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "technical_stairs_recipe",
+      "path": "~/TechnicalForestStuff"
+    },
+    {
+      "name": "TechnicalSlabRecipe",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "technical_slab_recipe",
+      "path": "~/TechnicalForestStuff"
+    },
+    {
+      "name": "TechnicalFenceRecipe",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "technical_fence_recipe",
+      "path": "~/TechnicalForestStuff"
+    },
+    {
+      "name": "TechnicalFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "technical_fence_gate_recipe",
+      "path": "~/TechnicalForestStuff"
+    },
+    {
+      "name": "TechnicalStickRecipe",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "technical_stick_recipe",
+      "path": "~/TechnicalForestStuff"
+    },
+    {
+      "name": "TechnicalForest",
+      "type": "biome",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "technical_forest",
+      "path": "~/TechnicalForestStuff"
+    },
+    {
+      "name": "TowerOfTech",
+      "type": "structure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tower_of_tech",
+      "path": "~/TechnicalForestStuff"
+    },
+    {
+      "name": "PureEnergy",
+      "type": "item",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pure_energy",
+      "path": "~/TechnicalForestStuff"
+    },
+    {
+      "name": "PureEnergyOre",
+      "type": "block",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pure_energy_ore",
+      "path": "~/TechnicalForestStuff"
+    },
+    {
+      "name": "PureEnergyBlock",
+      "type": "block",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pure_energy_block",
+      "path": "~/TechnicalForestStuff"
+    },
+    {
+      "name": "PureEnergyOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pure_energy_ore_block_recipe",
+      "path": "~/TechnicalForestStuff"
+    },
+    {
+      "name": "PureEnergyBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pure_energy_block_ore_recipe",
+      "path": "~/TechnicalForestStuff"
+    },
+    {
+      "name": "PureEnergyOreSmelting",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pure_energy_ore_smelting",
+      "path": "~/TechnicalForestStuff"
+    },
+    {
+      "name": "TechnicalLeaves",
+      "type": "block",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "technical_leaves",
+      "path": "~/TechnicalForestStuff"
+    },
+    {
+      "name": "CopperIngot",
+      "type": "item",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_ingot",
+      "path": "~/Items"
+    },
+    {
+      "name": "CopperOre",
+      "type": "block",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_ore",
+      "path": "~/Items"
+    },
+    {
+      "name": "CopperBlock",
+      "type": "block",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_block",
+      "path": "~/Items"
+    },
+    {
+      "name": "CopperOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_ore_block_recipe",
+      "path": "~/Items"
+    },
+    {
+      "name": "CopperBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_block_ore_recipe",
+      "path": "~/Items"
+    },
+    {
+      "name": "CopperOreSmelting",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_ore_smelting",
+      "path": "~/Items"
+    },
+    {
+      "name": "CompressedCopper",
+      "type": "item",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compressed_copper",
+      "path": "~/Compressed Items"
+    },
+    {
+      "name": "CompressedCopperRecipe",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compressed_copper_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CopperWire",
+      "type": "item",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_wire",
+      "path": "~/Crafting Items"
+    },
+    {
+      "name": "CraftingParts",
+      "type": "tab",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crafting_parts",
+      "path": "~/CTabs"
+    },
+    {
+      "name": "IronWire",
+      "type": "item",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_wire",
+      "path": "~/Crafting Items"
+    },
+    {
+      "name": "WireMaker",
+      "type": "item",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wire_maker",
+      "path": "~/Crafting Tools"
+    },
+    {
+      "name": "WiremakerRecipe",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wiremaker_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CopperWireRecipe",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_wire_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "IronWireRecipe",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_wire_recipe",
+      "path": "~/Recipes"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.op_generators_.black_iron_ingot": "Black Iron Ingot",
+      "itemGroup.tabcores": "Cores",
+      "item.op_generators_.pure_energy": "Pure Energy",
+      "block.op_generators_.technical_leaves": "Technical Leaves",
+      "block.op_generators_.copper_ore": "Copper Ore",
+      "biome.op_generators_.technical_forest": "Technical Forest",
+      "item.op_generators_.osmium_armor_boots": "Osmium Boots",
+      "item.op_generators_.iron_wire": "Iron Wire",
+      "item.op_generators_.osmium_ingot": "Osmium Ingot",
+      "block.op_generators_.copper_block": "Block of Copper",
+      "item.op_generators_.osmium_armor_leggings": "Osmium Leggings",
+      "item.op_generators_.iron_core": "Iron Core",
+      "block.op_generators_.osmium_block": "Block of Osmium",
+      "item.op_generators_.compressed_black_iron": "Compressed Black Iron",
+      "itemGroup.tabores_and_ingots": "Ores And Ingots",
+      "item.op_generators_.copper_ingot": "Copper",
+      "block.op_generators_.pure_energy_block": "Block of Pure Energy",
+      "block.op_generators_.technical_slab": "Technical Slab",
+      "item.op_generators_.osmium_shovel": "Osmium Shovel",
+      "item.op_generators_.osmium_sword": "Osmium Sword",
+      "block.op_generators_.osmium_ore": "Osmium Ore",
+      "block.op_generators_.technical_fence_gate": "Technical Fence Gate",
+      "item.op_generators_.osmium_armor_chestplate": "Osmium Chestplate",
+      "item.op_generators_.compressed_osmium": "Compressed Osmium",
+      "item.op_generators_.osmium_hoe": "Osmium Hoe",
+      "item.op_generators_.osmium_pickaxe": "Osmium Pickaxe",
+      "block.op_generators_.technical_stairs": "Technical Stairs",
+      "block.op_generators_.black_iron_block": "Block of Black Iron",
+      "itemGroup.tabcompressed_items": "Compressed Items",
+      "block.op_generators_.technical_wood": "Technical Wood",
+      "item.op_generators_.copper_wire": "Copper Wire",
+      "block.op_generators_.technical_log": "Technical Log",
+      "block.op_generators_.black_iron_ore": "BlackIron Ore",
+      "item.op_generators_.compressed_copper": "Compressed Copper",
+      "item.op_generators_.osmium_axe": "Osmium Axe",
+      "itemGroup.tabcrafting_parts": "Important Items",
+      "item.op_generators_.wire_maker": "Wire Maker",
+      "item.op_generators_.hammer": "Hammer",
+      "block.op_generators_.technical_fence": "Technical Fence",
+      "item.op_generators_.compressed_iron": "Compressed Iron",
+      "block.op_generators_.technical_planks": "Technical Planks",
+      "itemGroup.tabcrafting_items": "Crafting Tools",
+      "item.op_generators_.osmium_armor_helmet": "Osmium Helmet",
+      "block.op_generators_.pure_energy_ore": "Pure Energy Ore"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "CTabs",
+        "children": []
+      },
+      {
+        "name": "Compressed Items",
+        "children": []
+      },
+      {
+        "name": "Crafting Tools",
+        "children": []
+      },
+      {
+        "name": "Recipes",
+        "children": []
+      },
+      {
+        "name": "TechnicalForestStuff",
+        "children": []
+      },
+      {
+        "name": "Crafting Items",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "op_generators_",
+    "modName": "Op Generators 2",
+    "version": "1.0.0",
+    "author": "Tani, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.opgenerators",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}

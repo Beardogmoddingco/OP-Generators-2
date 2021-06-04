@@ -1,0 +1,26 @@
+{
+  "group": "op_generators_",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "op_generators_:technical_log"
+    },
+    "1": {
+      "item": "op_generators_:technical_log"
+    },
+    "2": {
+      "item": "op_generators_:technical_log"
+    },
+    "3": {
+      "item": "op_generators_:technical_log"
+    }
+  },
+  "result": {
+    "item": "op_generators_:technical_wood",
+    "count": 3
+  }
+}

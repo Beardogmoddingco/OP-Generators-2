@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "op_generators_:blocks/technical_leaves",
+    "up": "op_generators_:blocks/technical_leaves",
+    "north": "op_generators_:blocks/technical_leaves",
+    "east": "op_generators_:blocks/technical_leaves",
+    "south": "op_generators_:blocks/technical_leaves",
+    "west": "op_generators_:blocks/technical_leaves",
+    "particle": "op_generators_:blocks/technical_leaves"
+  }
+}
