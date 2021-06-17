@@ -8,15 +8,15 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
-import net.mcreator.opgenerators.itemgroup.CraftingPartsItemGroup;
+import net.mcreator.opgenerators.itemgroup.OresAndIngotsItemGroup;
 import net.mcreator.opgenerators.OpGeneratorsModElements;
 
 @OpGeneratorsModElements.ModElement.Tag
-public class IronWireItem extends OpGeneratorsModElements.ModElement {
-	@ObjectHolder("op_generators_:iron_wire")
+public class BlackDiamondItem extends OpGeneratorsModElements.ModElement {
+	@ObjectHolder("op_generators_:black_diamond")
 	public static final Item block = null;
-	public IronWireItem(OpGeneratorsModElements instance) {
-		super(instance, 75);
+	public BlackDiamondItem(OpGeneratorsModElements instance) {
+		super(instance, 95);
 	}
 
 	@Override
@@ -25,8 +25,8 @@ public class IronWireItem extends OpGeneratorsModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(CraftingPartsItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
-			setRegistryName("iron_wire");
+			super(new Item.Properties().group(OresAndIngotsItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
+			setRegistryName("black_diamond");
 		}
 
 		@Override

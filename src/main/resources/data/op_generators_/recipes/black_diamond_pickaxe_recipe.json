@@ -1,0 +1,30 @@
+{
+  "group": "op_generators_",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "op_generators_:black_diamond"
+    },
+    "1": {
+      "item": "op_generators_:black_diamond"
+    },
+    "2": {
+      "item": "op_generators_:black_diamond"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "op_generators_:black_diamond_pickaxe",
+    "count": 1
+  }
+}

@@ -3,12 +3,12 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "blackironrod",
+    "texture": "blackdiamond_gem",
     "customModelName": "Normal",
-    "name": "Black Iron Rod",
+    "name": "BlackDiamond",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:CraftingParts"
+      "value": "CUSTOM:OresAndIngots"
     },
     "stackSize": 64,
     "enchantability": 0,

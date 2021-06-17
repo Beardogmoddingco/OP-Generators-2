@@ -1,0 +1,42 @@
+{
+  "group": "op_generators_",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "op_generators_:black_diamond"
+    },
+    "1": {
+      "item": "op_generators_:black_diamond"
+    },
+    "2": {
+      "item": "op_generators_:black_diamond"
+    },
+    "3": {
+      "item": "op_generators_:black_diamond"
+    },
+    "4": {
+      "item": "op_generators_:black_diamond"
+    },
+    "5": {
+      "item": "op_generators_:black_diamond"
+    },
+    "6": {
+      "item": "op_generators_:black_diamond"
+    },
+    "7": {
+      "item": "op_generators_:black_diamond"
+    },
+    "8": {
+      "item": "op_generators_:black_diamond"
+    }
+  },
+  "result": {
+    "item": "op_generators_:black_diamond_block",
+    "count": 1
+  }
+}

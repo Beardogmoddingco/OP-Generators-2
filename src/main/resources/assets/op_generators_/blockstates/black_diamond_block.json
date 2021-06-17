@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "op_generators_:block/black_diamond_block"
+    }
+  }
+}
