@@ -1,0 +1,42 @@
+{
+  "group": "op_generators_",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:coal"
+    },
+    "1": {
+      "item": "op_generators_:iron_wire"
+    },
+    "2": {
+      "item": "minecraft:coal"
+    },
+    "3": {
+      "item": "op_generators_:compressed_copper"
+    },
+    "4": {
+      "item": "op_generators_:copper_wire"
+    },
+    "5": {
+      "item": "op_generators_:compressed_copper"
+    },
+    "6": {
+      "item": "minecraft:coal"
+    },
+    "7": {
+      "item": "op_generators_:iron_wire"
+    },
+    "8": {
+      "item": "minecraft:coal"
+    }
+  },
+  "result": {
+    "item": "op_generators_:coal_generator",
+    "count": 1
+  }
+}

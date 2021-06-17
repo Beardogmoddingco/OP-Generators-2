@@ -796,56 +796,238 @@
       "ids": {},
       "registry_name": "iron_wire_recipe",
       "path": "~/Recipes"
+    },
+    {
+      "name": "DirtGeneratorOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dirt_generator_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DirtGenerator",
+      "type": "block",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dirt_generator",
+      "path": "~/Generators"
+    },
+    {
+      "name": "Generators",
+      "type": "tab",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "generators",
+      "path": "~/CTabs"
+    },
+    {
+      "name": "CoalGeneratorOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coal_generator_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CoalGenerator",
+      "type": "block",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coal_generator",
+      "path": "~/Generators"
+    },
+    {
+      "name": "IronGenerator",
+      "type": "block",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_generator",
+      "path": "~/Generators"
+    },
+    {
+      "name": "IronGeneratorOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_generator_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DirtGen",
+      "type": "recipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dirt_gen",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Coalgen",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coalgen",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BlackIronWire",
+      "type": "item",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_iron_wire",
+      "path": "~/Crafting Items"
+    },
+    {
+      "name": "Blackironwirerecipe",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blackironwirerecipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Irongen",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "irongen",
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.op_generators_.black_iron_ingot": "Black Iron Ingot",
       "itemGroup.tabcores": "Cores",
-      "item.op_generators_.pure_energy": "Pure Energy",
-      "block.op_generators_.technical_leaves": "Technical Leaves",
+      "block.op_generators_.coal_generator": "Coal Generator",
       "block.op_generators_.copper_ore": "Copper Ore",
       "biome.op_generators_.technical_forest": "Technical Forest",
       "item.op_generators_.osmium_armor_boots": "Osmium Boots",
       "item.op_generators_.iron_wire": "Iron Wire",
-      "item.op_generators_.osmium_ingot": "Osmium Ingot",
-      "block.op_generators_.copper_block": "Block of Copper",
       "item.op_generators_.osmium_armor_leggings": "Osmium Leggings",
-      "item.op_generators_.iron_core": "Iron Core",
-      "block.op_generators_.osmium_block": "Block of Osmium",
+      "itemGroup.tabgenerators": "Generators",
       "item.op_generators_.compressed_black_iron": "Compressed Black Iron",
-      "itemGroup.tabores_and_ingots": "Ores And Ingots",
-      "item.op_generators_.copper_ingot": "Copper",
-      "block.op_generators_.pure_energy_block": "Block of Pure Energy",
       "block.op_generators_.technical_slab": "Technical Slab",
-      "item.op_generators_.osmium_shovel": "Osmium Shovel",
       "item.op_generators_.osmium_sword": "Osmium Sword",
       "block.op_generators_.osmium_ore": "Osmium Ore",
       "block.op_generators_.technical_fence_gate": "Technical Fence Gate",
       "item.op_generators_.osmium_armor_chestplate": "Osmium Chestplate",
+      "item.op_generators_.osmium_pickaxe": "Osmium Pickaxe",
+      "itemGroup.tabcompressed_items": "Compressed Items",
+      "item.op_generators_.compressed_copper": "Compressed Copper",
+      "item.op_generators_.wire_maker": "Wire Maker",
+      "item.op_generators_.osmium_axe": "Osmium Axe",
+      "item.op_generators_.hammer": "Hammer",
+      "block.op_generators_.technical_fence": "Technical Fence",
+      "block.op_generators_.pure_energy_ore": "Pure Energy Ore",
+      "item.op_generators_.black_iron_ingot": "Black Iron Ingot",
+      "item.op_generators_.pure_energy": "Pure Energy",
+      "block.op_generators_.technical_leaves": "Technical Leaves",
+      "item.op_generators_.osmium_ingot": "Osmium Ingot",
+      "block.op_generators_.copper_block": "Block of Copper",
+      "item.op_generators_.iron_core": "Iron Core",
+      "block.op_generators_.osmium_block": "Block of Osmium",
+      "block.op_generators_.dirt_generator": "Dirt Generator",
+      "itemGroup.tabores_and_ingots": "Ores And Ingots",
+      "item.op_generators_.copper_ingot": "Copper",
+      "block.op_generators_.pure_energy_block": "Block of Pure Energy",
+      "block.op_generators_.iron_generator": "Iron Generator",
+      "item.op_generators_.osmium_shovel": "Osmium Shovel",
       "item.op_generators_.compressed_osmium": "Compressed Osmium",
       "item.op_generators_.osmium_hoe": "Osmium Hoe",
-      "item.op_generators_.osmium_pickaxe": "Osmium Pickaxe",
       "block.op_generators_.technical_stairs": "Technical Stairs",
       "block.op_generators_.black_iron_block": "Block of Black Iron",
-      "itemGroup.tabcompressed_items": "Compressed Items",
       "block.op_generators_.technical_wood": "Technical Wood",
       "item.op_generators_.copper_wire": "Copper Wire",
       "block.op_generators_.technical_log": "Technical Log",
       "block.op_generators_.black_iron_ore": "BlackIron Ore",
-      "item.op_generators_.compressed_copper": "Compressed Copper",
-      "item.op_generators_.osmium_axe": "Osmium Axe",
       "itemGroup.tabcrafting_parts": "Important Items",
-      "item.op_generators_.wire_maker": "Wire Maker",
-      "item.op_generators_.hammer": "Hammer",
-      "block.op_generators_.technical_fence": "Technical Fence",
+      "item.op_generators_.black_iron_wire": "Black Iron Wire",
       "item.op_generators_.compressed_iron": "Compressed Iron",
       "block.op_generators_.technical_planks": "Technical Planks",
-      "itemGroup.tabcrafting_items": "Crafting Tools",
       "item.op_generators_.osmium_armor_helmet": "Osmium Helmet",
-      "block.op_generators_.pure_energy_ore": "Pure Energy Ore"
+      "itemGroup.tabcrafting_items": "Crafting Tools"
     }
   },
   "foldersRoot": {
@@ -877,6 +1059,10 @@
       },
       {
         "name": "Crafting Items",
+        "children": []
+      },
+      {
+        "name": "Generators",
         "children": []
       }
     ]
