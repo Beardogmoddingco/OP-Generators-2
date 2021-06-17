@@ -1,0 +1,42 @@
+{
+  "group": "op_generators_",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "op_generators_:compressed_osmium"
+    },
+    "1": {
+      "item": "op_generators_:super_compressed_iron"
+    },
+    "2": {
+      "item": "op_generators_:compressed_osmium"
+    },
+    "3": {
+      "item": "op_generators_:super_compressed_iron"
+    },
+    "4": {
+      "item": "op_generators_:black_iron_wire"
+    },
+    "5": {
+      "item": "op_generators_:super_compressed_iron"
+    },
+    "6": {
+      "item": "minecraft:iron_block"
+    },
+    "7": {
+      "item": "minecraft:iron_block"
+    },
+    "8": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "result": {
+    "item": "op_generators_:osmium_generator",
+    "count": 1
+  }
+}

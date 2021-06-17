@@ -973,6 +973,105 @@
       "ids": {},
       "registry_name": "irongen",
       "path": "~/Recipes"
+    },
+    {
+      "name": "OsmiumGeneratorOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "osmium_generator_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OsmiumGenerator",
+      "type": "block",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "osmium_generator",
+      "path": "~/Generators"
+    },
+    {
+      "name": "SuperCompressedIron",
+      "type": "item",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "super_compressed_iron",
+      "path": "~/Compressed Items"
+    },
+    {
+      "name": "ToughHammer",
+      "type": "item",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tough_hammer",
+      "path": "~/Crafting Tools"
+    },
+    {
+      "name": "Supercompressedironrecipe",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "supercompressedironrecipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BlackIronRod",
+      "type": "item",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_iron_rod",
+      "path": "~/Crafting Items"
+    },
+    {
+      "name": "Toughhammerrecipe",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "toughhammerrecipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Osmiumgen",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "osmiumgen",
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [],
@@ -996,8 +1095,9 @@
       "item.op_generators_.osmium_pickaxe": "Osmium Pickaxe",
       "itemGroup.tabcompressed_items": "Compressed Items",
       "item.op_generators_.compressed_copper": "Compressed Copper",
-      "item.op_generators_.wire_maker": "Wire Maker",
       "item.op_generators_.osmium_axe": "Osmium Axe",
+      "item.op_generators_.wire_maker": "Wire Maker",
+      "item.op_generators_.tough_hammer": "Tough Hammer",
       "item.op_generators_.hammer": "Hammer",
       "block.op_generators_.technical_fence": "Technical Fence",
       "block.op_generators_.pure_energy_ore": "Pure Energy Ore",
@@ -1014,8 +1114,10 @@
       "block.op_generators_.pure_energy_block": "Block of Pure Energy",
       "block.op_generators_.iron_generator": "Iron Generator",
       "item.op_generators_.osmium_shovel": "Osmium Shovel",
+      "item.op_generators_.super_compressed_iron": "Super Compressed Iron",
       "item.op_generators_.compressed_osmium": "Compressed Osmium",
       "item.op_generators_.osmium_hoe": "Osmium Hoe",
+      "block.op_generators_.osmium_generator": "Osmium Generator",
       "block.op_generators_.technical_stairs": "Technical Stairs",
       "block.op_generators_.black_iron_block": "Block of Black Iron",
       "block.op_generators_.technical_wood": "Technical Wood",
@@ -1023,6 +1125,7 @@
       "block.op_generators_.technical_log": "Technical Log",
       "block.op_generators_.black_iron_ore": "BlackIron Ore",
       "itemGroup.tabcrafting_parts": "Important Items",
+      "item.op_generators_.black_iron_rod": "Black Iron Rod",
       "item.op_generators_.black_iron_wire": "Black Iron Wire",
       "item.op_generators_.compressed_iron": "Compressed Iron",
       "block.op_generators_.technical_planks": "Technical Planks",
