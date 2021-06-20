@@ -20,7 +20,7 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.opgenerators.procedures.OsmiumGeneratorOnBlockRightClickedProcedure;
-import net.mcreator.opgenerators.itemgroup.CoresItemGroup;
+import net.mcreator.opgenerators.itemgroup.GeneratorsItemGroup;
 import net.mcreator.opgenerators.OpGeneratorsModElements;
 
 import java.util.Map;
@@ -39,7 +39,7 @@ public class OsmiumGeneratorBlock extends OpGeneratorsModElements.ModElement {
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(CoresItemGroup.tab)).setRegistryName(block.getRegistryName()));
+		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(GeneratorsItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
