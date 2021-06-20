@@ -4,11 +4,15 @@ license="Academic Free License v3.0"
 
 [[mods]]
 modId="op_generators_"
-version="1.0.0"
-displayName="Op Generators 2"
+version="Beta 1.0.0"
+displayName="Op Generators 2 The Spark Of Tech"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
-authors="Tani, MCreator"
+logoFile="logo.png"
+authors="Beardogmoddingco---curseforge account beardog122112"
+description='''
+adds new generators that output RF also known as RF
+'''
 
 [[dependencies.op_generators_]]
     modId="minecraft"
