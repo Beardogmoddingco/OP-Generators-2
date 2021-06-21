@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "op_generators_:blocks/netherlapis",
+    "up": "op_generators_:blocks/netherlapis",
+    "north": "op_generators_:blocks/netherlapis",
+    "east": "op_generators_:blocks/netherlapis",
+    "south": "op_generators_:blocks/netherlapis",
+    "west": "op_generators_:blocks/netherlapis",
+    "particle": "op_generators_:blocks/netherlapis"
+  }
+}

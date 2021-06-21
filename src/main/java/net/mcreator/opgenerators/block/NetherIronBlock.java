@@ -25,7 +25,6 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.RegistryKey;
 import net.minecraft.loot.LootContext;
-import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
@@ -43,11 +42,11 @@ import java.util.List;
 import java.util.Collections;
 
 @OpGeneratorsModElements.ModElement.Tag
-public class NetherCoalBlock extends OpGeneratorsModElements.ModElement {
-	@ObjectHolder("op_generators_:nether_coal")
+public class NetherIronBlock extends OpGeneratorsModElements.ModElement {
+	@ObjectHolder("op_generators_:nether_iron")
 	public static final Block block = null;
-	public NetherCoalBlock(OpGeneratorsModElements instance) {
-		super(instance, 116);
+	public NetherIronBlock(OpGeneratorsModElements instance) {
+		super(instance, 117);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -61,8 +60,8 @@ public class NetherCoalBlock extends OpGeneratorsModElements.ModElement {
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.NETHERRACK).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0)
-					.harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool());
-			setRegistryName("nether_coal");
+					.harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool());
+			setRegistryName("nether_iron");
 		}
 
 		@Override
@@ -70,7 +69,7 @@ public class NetherCoalBlock extends OpGeneratorsModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(Items.COAL, (int) (1)));
+			return Collections.singletonList(new ItemStack(this, 1));
 		}
 	}
 	private static Feature<OreFeatureConfig> feature = null;
@@ -94,7 +93,7 @@ public class NetherCoalBlock extends OpGeneratorsModElements.ModElement {
 	private static class FeatureRegisterHandler {
 		@SubscribeEvent
 		public void registerFeature(RegistryEvent.Register<Feature<?>> event) {
-			CUSTOM_MATCH = Registry.register(Registry.RULE_TEST, new ResourceLocation("op_generators_:nether_coal_match"),
+			CUSTOM_MATCH = Registry.register(Registry.RULE_TEST, new ResourceLocation("op_generators_:nether_iron_match"),
 					() -> CustomRuleTest.codec);
 			feature = new OreFeature(OreFeatureConfig.CODEC) {
 				@Override
@@ -108,10 +107,10 @@ public class NetherCoalBlock extends OpGeneratorsModElements.ModElement {
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 17)).range(64)
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 9)).range(64)
 					.square().func_242731_b(20);
-			event.getRegistry().register(feature.setRegistryName("nether_coal"));
-			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("op_generators_:nether_coal"), configuredFeature);
+			event.getRegistry().register(feature.setRegistryName("nether_iron"));
+			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("op_generators_:nether_iron"), configuredFeature);
 		}
 	}
 	@SubscribeEvent

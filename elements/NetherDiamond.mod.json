@@ -2,12 +2,12 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "nethercoal",
-    "textureTop": "nethercoal",
-    "textureLeft": "nethercoal",
-    "textureFront": "nethercoal",
-    "textureRight": "nethercoal",
-    "textureBack": "nethercoal",
+    "texture": "netherdiamond",
+    "textureTop": "netherdiamond",
+    "textureLeft": "netherdiamond",
+    "textureFront": "netherdiamond",
+    "textureRight": "netherdiamond",
+    "textureBack": "netherdiamond",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -32,18 +32,18 @@
         "subtract": false
       }
     ],
-    "name": "Nether Coal",
+    "name": "Nether Diamond",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:OresAndIngots"
+      "value": "CUSTOM:Cores"
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "Items.COAL#0"
+      "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -76,7 +76,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "breakHarvestLevel": 3,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -110,8 +110,8 @@
         "value": "Blocks.NETHERRACK"
       }
     ],
-    "frequencyPerChunks": 20,
-    "frequencyOnChunk": 17,
+    "frequencyPerChunks": 1,
+    "frequencyOnChunk": 8,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 64
   }

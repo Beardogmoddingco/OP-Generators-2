@@ -2,12 +2,12 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "nethercoal",
-    "textureTop": "nethercoal",
-    "textureLeft": "nethercoal",
-    "textureFront": "nethercoal",
-    "textureRight": "nethercoal",
-    "textureBack": "nethercoal",
+    "texture": "netheriron",
+    "textureTop": "netheriron",
+    "textureLeft": "netheriron",
+    "textureFront": "netheriron",
+    "textureRight": "netheriron",
+    "textureBack": "netheriron",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Nether Coal",
+    "name": "Nether Iron",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -43,7 +43,7 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "Items.COAL#0"
+      "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -76,7 +76,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "breakHarvestLevel": 2,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -111,7 +111,7 @@
       }
     ],
     "frequencyPerChunks": 20,
-    "frequencyOnChunk": 17,
+    "frequencyOnChunk": 9,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 64
   }

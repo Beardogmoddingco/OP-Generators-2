@@ -2,12 +2,12 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "nethercoal",
-    "textureTop": "nethercoal",
-    "textureLeft": "nethercoal",
-    "textureFront": "nethercoal",
-    "textureRight": "nethercoal",
-    "textureBack": "nethercoal",
+    "texture": "netherredstone",
+    "textureTop": "netherredstone",
+    "textureLeft": "netherredstone",
+    "textureFront": "netherredstone",
+    "textureRight": "netherredstone",
+    "textureBack": "netherredstone",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Nether Coal",
+    "name": "Nether Redstone",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -43,9 +43,9 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "Items.COAL#0"
+      "value": "Items.REDSTONE"
     },
-    "dropAmount": 1,
+    "dropAmount": 6,
     "useLootTableForDrops": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
@@ -76,7 +76,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "breakHarvestLevel": 3,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -110,8 +110,8 @@
         "value": "Blocks.NETHERRACK"
       }
     ],
-    "frequencyPerChunks": 20,
-    "frequencyOnChunk": 17,
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 64
   }

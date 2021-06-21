@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "op_generators_:blocks/netheriron",
+    "up": "op_generators_:blocks/netheriron",
+    "north": "op_generators_:blocks/netheriron",
+    "east": "op_generators_:blocks/netheriron",
+    "south": "op_generators_:blocks/netheriron",
+    "west": "op_generators_:blocks/netheriron",
+    "particle": "op_generators_:blocks/netheriron"
+  }
+}
