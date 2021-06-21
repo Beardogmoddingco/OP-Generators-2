@@ -1298,15 +1298,25 @@
       "ids": {},
       "registry_name": "black_diamond_armor_boots_recipe",
       "path": "~/Items"
+    },
+    {
+      "name": "NetherCoal",
+      "type": "block",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nether_coal",
+      "path": "~/Nether Ores"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "itemGroup.tabcores": "Cores",
-      "block.op_generators_.coal_generator": "Coal Generator",
       "block.op_generators_.black_diamond_block": "Block of BlackDiamond",
+      "block.op_generators_.coal_generator": "Coal Generator",
+      "itemGroup.tabcores": "Cores",
       "block.op_generators_.copper_ore": "Copper Ore",
       "biome.op_generators_.technical_forest": "Technical Forest",
       "item.op_generators_.black_diamond_armor_chestplate": "BlackDiamond Chestplate",
@@ -1316,8 +1326,8 @@
       "itemGroup.tabgenerators": "Generators",
       "item.op_generators_.compressed_black_iron": "Compressed Black Iron",
       "block.op_generators_.technical_slab": "Technical Slab",
-      "item.op_generators_.osmium_sword": "Osmium Sword",
       "block.op_generators_.osmium_ore": "Osmium Ore",
+      "item.op_generators_.osmium_sword": "Osmium Sword",
       "block.op_generators_.technical_fence_gate": "Technical Fence Gate",
       "item.op_generators_.osmium_armor_chestplate": "Osmium Chestplate",
       "item.op_generators_.black_diamond_hoe": "BlackDiamond Hoe",
@@ -1357,6 +1367,7 @@
       "block.op_generators_.black_iron_block": "Block of Black Iron",
       "block.op_generators_.technical_wood": "Technical Wood",
       "item.op_generators_.copper_wire": "Copper Wire",
+      "block.op_generators_.nether_coal": "Nether Coal",
       "block.op_generators_.technical_log": "Technical Log",
       "block.op_generators_.black_iron_ore": "BlackIron Ore",
       "item.op_generators_.black_diamond_armor_helmet": "BlackDiamond Helmet",
@@ -1404,6 +1415,10 @@
       },
       {
         "name": "Generators",
+        "children": []
+      },
+      {
+        "name": "Nether Ores",
         "children": []
       }
     ]
