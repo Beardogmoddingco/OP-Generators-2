@@ -72,16 +72,6 @@
       "path": "~/Items"
     },
     {
-      "name": "Cores",
-      "type": "tab",
-      "sortid": 9,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cores",
-      "path": "~/CTabs"
-    },
-    {
       "name": "CompressedIron",
       "type": "item",
       "sortid": 10,
@@ -1358,13 +1348,82 @@
       "ids": {},
       "registry_name": "nether_diamond",
       "path": "~/Nether Ores"
+    },
+    {
+      "name": "NetherCopper",
+      "type": "block",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nether_copper",
+      "path": "~/Nether Ores"
+    },
+    {
+      "name": "NetherBlackIron",
+      "type": "block",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nether_black_iron",
+      "path": "~/Nether Ores"
+    },
+    {
+      "name": "NertherOsmium",
+      "type": "block",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nerther_osmium",
+      "path": "~/Nether Ores"
+    },
+    {
+      "name": "NetherBlackDiamond",
+      "type": "block",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nether_black_diamond",
+      "path": "~/Nether Ores"
+    },
+    {
+      "name": "NetherCopperSmelting",
+      "type": "recipe",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nether_copper_smelting",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NetherOsmiumSmelting",
+      "type": "recipe",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nether_osmium_smelting",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NetherBlackIronSmelting",
+      "type": "recipe",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nether_black_iron_smelting",
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "itemGroup.tabcores": "Cores",
       "block.op_generators_.coal_generator": "Coal Generator",
       "block.op_generators_.black_diamond_block": "Block of BlackDiamond",
       "block.op_generators_.copper_ore": "Copper Ore",
@@ -1392,6 +1451,7 @@
       "item.op_generators_.tough_hammer": "Tough Hammer",
       "item.op_generators_.hammer": "Hammer",
       "block.op_generators_.technical_fence": "Technical Fence",
+      "block.op_generators_.nether_black_diamond": "Nether Black Diamond",
       "block.op_generators_.pure_energy_ore": "Pure Energy Ore",
       "block.op_generators_.nether_iron": "Nether Iron",
       "item.op_generators_.black_iron_ingot": "Black Iron Ingot",
@@ -1411,6 +1471,7 @@
       "block.op_generators_.iron_generator": "Iron Generator",
       "item.op_generators_.osmium_shovel": "Osmium Shovel",
       "item.op_generators_.black_diamond": "BlackDiamond",
+      "block.op_generators_.nether_copper": "Nether Copper",
       "item.op_generators_.super_compressed_iron": "Super Compressed Iron",
       "item.op_generators_.compressed_osmium": "Compressed Osmium",
       "item.op_generators_.osmium_hoe": "Osmium Hoe",
@@ -1428,12 +1489,14 @@
       "itemGroup.tabcrafting_parts": "Important Items",
       "item.op_generators_.black_diamond_axe": "BlackDiamond Axe",
       "item.op_generators_.black_iron_rod": "Black Iron Rod",
+      "block.op_generators_.nerther_osmium": "Nerther Osmium",
       "item.op_generators_.black_iron_wire": "Black Iron Wire",
       "item.op_generators_.compressed_iron": "Compressed Iron",
       "item.op_generators_.black_diamond_sword": "BlackDiamond Sword",
       "block.op_generators_.technical_planks": "Technical Planks",
       "item.op_generators_.osmium_armor_helmet": "Osmium Helmet",
-      "itemGroup.tabcrafting_items": "Crafting Tools"
+      "itemGroup.tabcrafting_items": "Crafting Tools",
+      "block.op_generators_.nether_black_iron": "Nether Black Iron"
     }
   },
   "foldersRoot": {

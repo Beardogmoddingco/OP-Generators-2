@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "op_generators_:blocks/nethercopper",
+    "up": "op_generators_:blocks/nethercopper",
+    "north": "op_generators_:blocks/nethercopper",
+    "east": "op_generators_:blocks/nethercopper",
+    "south": "op_generators_:blocks/nethercopper",
+    "west": "op_generators_:blocks/nethercopper",
+    "particle": "op_generators_:blocks/nethercopper"
+  }
+}

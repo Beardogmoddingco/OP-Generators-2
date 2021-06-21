@@ -18,7 +18,7 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.opgenerators.itemgroup.CoresItemGroup;
+import net.mcreator.opgenerators.itemgroup.OresAndIngotsItemGroup;
 import net.mcreator.opgenerators.OpGeneratorsModElements;
 
 import java.util.List;
@@ -35,7 +35,8 @@ public class PureEnergyBlockBlock extends OpGeneratorsModElements.ModElement {
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(CoresItemGroup.tab)).setRegistryName(block.getRegistryName()));
+		elements.items
+				.add(() -> new BlockItem(block, new Item.Properties().group(OresAndIngotsItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 
 	@Override

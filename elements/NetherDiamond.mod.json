@@ -39,11 +39,11 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:Cores"
+      "value": "CUSTOM:OresAndIngots"
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "Items.DIAMOND"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,

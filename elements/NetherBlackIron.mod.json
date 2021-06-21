@@ -2,14 +2,14 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "osmium_ore",
-    "textureTop": "",
-    "textureLeft": "",
-    "textureFront": "",
-    "textureRight": "",
-    "textureBack": "",
-    "renderType": 11,
-    "customModelName": "Single texture",
+    "texture": "netherblackiron",
+    "textureTop": "netherblackiron",
+    "textureLeft": "netherblackiron",
+    "textureFront": "netherblackiron",
+    "textureRight": "netherblackiron",
+    "textureBack": "netherblackiron",
+    "renderType": 10,
+    "customModelName": "Normal",
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -32,10 +32,10 @@
         "subtract": false
       }
     ],
-    "name": "Osmium Ore",
+    "name": "Nether Black Iron",
     "specialInfo": [],
-    "hardness": 6.0,
-    "resistance": 8.705505632961241,
+    "hardness": 1.0,
+    "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -72,11 +72,11 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "NETHERRACK"
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 3,
+    "breakHarvestLevel": 2,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -102,17 +102,17 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "spawnWorldTypes": [
-      "Surface"
+      "Nether"
     ],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.STONE"
+        "value": "Blocks.NETHERRACK"
       }
     ],
     "frequencyPerChunks": 11,
     "frequencyOnChunk": 7,
-    "minGenerateHeight": 1,
-    "maxGenerateHeight": 33
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
   }
 }

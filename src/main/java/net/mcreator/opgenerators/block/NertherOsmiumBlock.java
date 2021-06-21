@@ -42,11 +42,11 @@ import java.util.List;
 import java.util.Collections;
 
 @OpGeneratorsModElements.ModElement.Tag
-public class OsmiumOreBlock extends OpGeneratorsModElements.ModElement {
-	@ObjectHolder("op_generators_:osmium_ore")
+public class NertherOsmiumBlock extends OpGeneratorsModElements.ModElement {
+	@ObjectHolder("op_generators_:nerther_osmium")
 	public static final Block block = null;
-	public OsmiumOreBlock(OpGeneratorsModElements instance) {
-		super(instance, 14);
+	public NertherOsmiumBlock(OpGeneratorsModElements instance) {
+		super(instance, 124);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -59,9 +59,9 @@ public class OsmiumOreBlock extends OpGeneratorsModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(6f, 8.705505632961241f).setLightLevel(s -> 0)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.NETHERRACK).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0)
 					.harvestLevel(3).harvestTool(ToolType.PICKAXE).setRequiresTool());
-			setRegistryName("osmium_ore");
+			setRegistryName("nerther_osmium");
 		}
 
 		@Override
@@ -80,7 +80,7 @@ public class OsmiumOreBlock extends OpGeneratorsModElements.ModElement {
 		static final com.mojang.serialization.Codec<CustomRuleTest> codec = com.mojang.serialization.Codec.unit(() -> INSTANCE);
 		public boolean test(BlockState blockAt, Random random) {
 			boolean blockCriteria = false;
-			if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
+			if (blockAt.getBlock() == Blocks.NETHERRACK.getDefaultState().getBlock())
 				blockCriteria = true;
 			return blockCriteria;
 		}
@@ -93,23 +93,24 @@ public class OsmiumOreBlock extends OpGeneratorsModElements.ModElement {
 	private static class FeatureRegisterHandler {
 		@SubscribeEvent
 		public void registerFeature(RegistryEvent.Register<Feature<?>> event) {
-			CUSTOM_MATCH = Registry.register(Registry.RULE_TEST, new ResourceLocation("op_generators_:osmium_ore_match"), () -> CustomRuleTest.codec);
+			CUSTOM_MATCH = Registry.register(Registry.RULE_TEST, new ResourceLocation("op_generators_:nerther_osmium_match"),
+					() -> CustomRuleTest.codec);
 			feature = new OreFeature(OreFeatureConfig.CODEC) {
 				@Override
 				public boolean generate(ISeedReader world, ChunkGenerator generator, Random rand, BlockPos pos, OreFeatureConfig config) {
 					RegistryKey<World> dimensionType = world.getWorld().getDimensionKey();
 					boolean dimensionCriteria = false;
-					if (dimensionType == World.OVERWORLD)
+					if (dimensionType == World.THE_NETHER)
 						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 7)).range(33)
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 7)).range(64)
 					.square().func_242731_b(11);
-			event.getRegistry().register(feature.setRegistryName("osmium_ore"));
-			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("op_generators_:osmium_ore"), configuredFeature);
+			event.getRegistry().register(feature.setRegistryName("nerther_osmium"));
+			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("op_generators_:nerther_osmium"), configuredFeature);
 		}
 	}
 	@SubscribeEvent

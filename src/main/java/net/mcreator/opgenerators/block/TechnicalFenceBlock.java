@@ -17,7 +17,7 @@ import net.minecraft.block.FenceBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.opgenerators.itemgroup.CoresItemGroup;
+import net.mcreator.opgenerators.itemgroup.CompressedItemsItemGroup;
 import net.mcreator.opgenerators.OpGeneratorsModElements;
 
 import java.util.List;
@@ -34,7 +34,8 @@ public class TechnicalFenceBlock extends OpGeneratorsModElements.ModElement {
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(CoresItemGroup.tab)).setRegistryName(block.getRegistryName()));
+		elements.items
+				.add(() -> new BlockItem(block, new Item.Properties().group(CompressedItemsItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 	public static class CustomBlock extends FenceBlock {
 		public CustomBlock() {

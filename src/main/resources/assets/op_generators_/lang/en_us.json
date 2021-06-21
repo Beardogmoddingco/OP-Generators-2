@@ -1,5 +1,4 @@
 {
-  "itemGroup.tabcores": "Cores",
   "block.op_generators_.coal_generator": "Coal Generator",
   "block.op_generators_.black_diamond_block": "Block of BlackDiamond",
   "block.op_generators_.copper_ore": "Copper Ore",
@@ -27,6 +26,7 @@
   "item.op_generators_.tough_hammer": "Tough Hammer",
   "item.op_generators_.hammer": "Hammer",
   "block.op_generators_.technical_fence": "Technical Fence",
+  "block.op_generators_.nether_black_diamond": "Nether Black Diamond",
   "block.op_generators_.pure_energy_ore": "Pure Energy Ore",
   "block.op_generators_.nether_iron": "Nether Iron",
   "item.op_generators_.black_iron_ingot": "Black Iron Ingot",
@@ -46,6 +46,7 @@
   "block.op_generators_.iron_generator": "Iron Generator",
   "item.op_generators_.osmium_shovel": "Osmium Shovel",
   "item.op_generators_.black_diamond": "BlackDiamond",
+  "block.op_generators_.nether_copper": "Nether Copper",
   "item.op_generators_.super_compressed_iron": "Super Compressed Iron",
   "item.op_generators_.compressed_osmium": "Compressed Osmium",
   "item.op_generators_.osmium_hoe": "Osmium Hoe",
@@ -63,10 +64,12 @@
   "itemGroup.tabcrafting_parts": "Important Items",
   "item.op_generators_.black_diamond_axe": "BlackDiamond Axe",
   "item.op_generators_.black_iron_rod": "Black Iron Rod",
+  "block.op_generators_.nerther_osmium": "Nerther Osmium",
   "item.op_generators_.black_iron_wire": "Black Iron Wire",
   "item.op_generators_.compressed_iron": "Compressed Iron",
   "item.op_generators_.black_diamond_sword": "BlackDiamond Sword",
   "block.op_generators_.technical_planks": "Technical Planks",
   "item.op_generators_.osmium_armor_helmet": "Osmium Helmet",
-  "itemGroup.tabcrafting_items": "Crafting Tools"
+  "itemGroup.tabcrafting_items": "Crafting Tools",
+  "block.op_generators_.nether_black_iron": "Nether Black Iron"
 }
