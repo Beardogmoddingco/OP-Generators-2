@@ -1,0 +1,20 @@
+{
+  "group": "op_generators_",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "op_generators_:tough_hammer"
+    },
+    "1": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "op_generators_:diamond_plate",
+    "count": 1
+  }
+}

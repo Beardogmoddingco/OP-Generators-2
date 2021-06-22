@@ -61,7 +61,7 @@ public class NetherLapisBlock extends OpGeneratorsModElements.ModElement {
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.NETHERRACK).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0)
-					.harvestLevel(3).harvestTool(ToolType.PICKAXE).setRequiresTool());
+					.harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("nether_lapis");
 		}
 

@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BlackIronBlock"
+      },
+      {
+        "value": "Blocks.IRON_BLOCK"
+      },
+      {
+        "value": "CUSTOM:BlackIronBlock"
+      },
+      {
+        "value": "Blocks.IRON_BLOCK"
+      },
+      {
+        "value": "CUSTOM:WireMaker"
+      },
+      {
+        "value": "Blocks.IRON_BLOCK"
+      },
+      {
+        "value": "CUSTOM:BlackIronBlock"
+      },
+      {
+        "value": "CUSTOM:BlackIronBlock"
+      },
+      {
+        "value": "CUSTOM:BlackIronBlock"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ToughWireMaker"
+    },
+    "name": "toughwiremakerrecipe",
+    "namespace": "mod"
+  }
+}

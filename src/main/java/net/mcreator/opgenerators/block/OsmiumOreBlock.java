@@ -60,7 +60,7 @@ public class OsmiumOreBlock extends OpGeneratorsModElements.ModElement {
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(6f, 8.705505632961241f).setLightLevel(s -> 0)
-					.harvestLevel(3).harvestTool(ToolType.PICKAXE).setRequiresTool());
+					.harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("osmium_ore");
 		}
 

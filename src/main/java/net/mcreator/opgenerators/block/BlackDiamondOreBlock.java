@@ -61,7 +61,7 @@ public class BlackDiamondOreBlock extends OpGeneratorsModElements.ModElement {
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(15f, 18.11949159194239f).setLightLevel(s -> 0)
-					.harvestLevel(3).harvestTool(ToolType.PICKAXE).setRequiresTool());
+					.harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("black_diamond_ore");
 		}
 
